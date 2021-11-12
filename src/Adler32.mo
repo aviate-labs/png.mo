@@ -4,8 +4,6 @@ import Binary "mo:encoding/Binary";
 import Nat8 "mo:base/Nat8";
 import Nat32 "mo:base/Nat32";
 
-import Debug "mo:base/Debug";
-
 module {
     // Largest prime that is less than 65536.
     private let mod : Nat32 = 65521;

@@ -3,8 +3,6 @@ import Text "mo:base/Text";
 
 import Adler32 "../src/Adler32";
 
-import Debug "mo:base/Debug";
-
 type Test = {
     bs   : Text;
     hash : Nat32;
